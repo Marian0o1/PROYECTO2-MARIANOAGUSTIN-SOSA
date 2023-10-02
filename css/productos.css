@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+@font-face {
+  font-family: "Saiyan-Sans";
+  src: url("../fonts/Saiyan-Sans.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffd700;
+  font-family: "Lato", sans-serif;
+  color: #f5f5f5;
+  font-size: 1rem;
+}
+
+header {
+  background-color: #ff8c00;
+  /* margin: 1rem; */
+  border-bottom: 3px solid black; /* Ancho, estilo y color del borde inferior */
+  padding-bottom: 10px; /* Espaciado entre el texto y el borde inferior */
+}
+
+.logo-header img {
+  width: 17rem;
+  margin-bottom: 3rem;
+}
+
+.titulo-header {
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+main {
+  color: #000;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contenido-total {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.nombre-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.nombre-info > h2 {
+  font-size: 6rem;
+  color: #f5f5f5;
+  font-family: "Saiyan-Sans";
+  letter-spacing: 1rem;
+  -webkit-text-stroke: 1px rgb(212, 106, 6); /* Para navegadores basados en WebKit (Safari, Chrome, etc.) */
+}
+
+.nombre-info > p {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.imagen-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.2rem;
+}
+
+.img-detalles {
+  height: 15rem;
+}
+
+.imagen-info > p {
+  font-size: 1.5rem;
+}
+
+.precio {
+  color: red;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.botones {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0;
+  &:hover {
+    background-color: #444;
+    cursor: pointer;
+  }
+}
+
+footer {
+  background-color: #000;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

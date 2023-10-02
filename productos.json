@@ -1,0 +1,76 @@
+{
+  "personajes": [
+    {
+      "id": 1,
+      "nombre": "Goku",
+      "descripcion": "Goku es el protagonista principal de Dragon Ball Z. Es un guerrero Saiyan con un corazón puro y un amor por la pelea y la superación personal.",
+      "imagen": "./img/goku.png",
+      "precio": "$22.000(ARS)",
+      "puntaje": "⭐⭐⭐⭐⭐",
+      "detalle_imagen": "Figura de acción de Goku en su forma Super Saiyan. Detalles precisos y pintura de alta calidad. Altura: 15 cm."
+    },
+    {
+      "id": 2,
+      "nombre": "Vegeta",
+      "descripcion": "Vegeta es un poderoso guerrero Saiyan y príncipe del planeta Vegeta. Inicialmente es un enemigo de Goku, pero con el tiempo se convierte en un aliado valioso.",
+      "imagen": "./img/vegeta.png",
+      "precio": "$18.000(ARS)",
+      "puntaje": "⭐⭐⭐⭐",
+      "detalle_imagen": "Figura coleccionable de Vegeta en su armadura Saiyan. Esculpido detallado y colores vibrantes. Altura: 16 cm."
+    },
+    {
+      "id": 3,
+      "nombre": "Picoro",
+      "descripcion": "Picoro es un Namekiano y uno de los luchadores más poderosos de la Tierra. Es conocido por su sabiduría, habilidades tácticas y su fuerte sentido de la responsabilidad.",
+      "imagen": "./img/picoro.png",
+      "precio": "$15.000(ARS)",
+      "puntaje": "⭐⭐⭐⭐",
+      "detalle_imagen": "Figura de Picoro con pose de combate. Detalles realistas y pintura duradera. Altura: 14 cm."
+    },
+    {
+      "id": 4,
+      "nombre": "Trunks",
+      "descripcion": "Trunks es el hijo de Vegeta y Bulma. Es un guerrero Saiyan que viaja en el tiempo para advertir a los héroes sobre futuras amenazas.",
+      "imagen": "./img/trunks.png",
+      "precio": "$20.000(ARS)",
+      "puntaje": "⭐⭐⭐⭐⭐",
+      "detalle_imagen": "Figura de Trunks en su versión del futuro. Acabado brillante y detalles precisos. Altura: 15 cm."
+    },
+    {
+      "id": 5,
+      "nombre": "Gohan",
+      "descripcion": "Gohan es el hijo mayor de Goku y Milk. Es un poderoso guerrero Saiyan y posee un corazón compasivo.",
+      "imagen": "./img/gohan.png",
+      "precio": "$8.000(ARS)",
+      "puntaje": "⭐⭐⭐",
+      "detalle_imagen": "Figura de acción de Gohan niño. Esculpido dinámico y colores auténticos. Altura: 13 cm."
+    },
+    {
+      "id": 6,
+      "nombre": "Krilin",
+      "descripcion": "Krilin es uno de los amigos cercanos de Goku y un luchador valiente en el equipo de los Guerreros Z.",
+      "imagen": "./img/krilin.png",
+      "precio": "$5.000(ARS)",
+      "puntaje": "⭐⭐⭐",
+      "detalle_imagen": "Figura coleccionable de Krilin. Detalles intrincados y pintura de alta calidad. Altura: 12 cm."
+    },
+    {
+      "id": 7,
+      "nombre": "Yamcha",
+      "descripcion": "Yamcha es un exbandido convertido en luchador y amigo cercano de Goku.",
+      "imagen": "./img/yamcha.png",
+      "precio": "$5.000(ARS)",
+      "puntaje": "⭐⭐⭐⭐",
+      "detalle_imagen": "Figura de Yamcha en su pose de combate. Esculpido preciso y colores vibrantes. Altura: 14 cm."
+    },
+    {
+      "id": 8,
+      "nombre": "Tenshinhan",
+      "descripcion": "Tenshinhan es un guerrero humano con habilidades de artes marciales excepcionales.",
+      "imagen": "./img/ten.png",
+      "precio": "$6.000(ARS)",
+      "puntaje": "⭐⭐",
+      "detalle_imagen": "Figura de Tenshinhan en su posición de lucha característica. Detalles meticulosos y acabado brillante. Altura: 14 cm."
+    }
+  ]
+}
