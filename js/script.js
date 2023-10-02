@@ -1,6 +1,22 @@
-fetch("productos.json")
+const xhr = new XMLHttpRequest();
+xhr.open("GET", "../productos.json", true);
+xhr.onreadystatechange = function () {
+  if (xhr.readyState === 4 && xhr.status === 200) {
+    const datos = xhr.responseText;
+    localStorage.setItem("productos", datos);
+  }
+};
+xhr.send();
+async function cargarDatos() {
+  const respuesta = await fetch("../productos.json");
+  const datos = await respuesta.json();
+  localStorage.setItem("productos", JSON.stringify(datos));
+}
+cargarDatos();
+
+/* fetch("productos.json")
   .then((respuesta) => respuesta.json())
-  .then((datos) => localStorage.setItem("productos", JSON.stringify(datos)));
+  .then((datos) => localStorage.setItem("productos", JSON.stringify(datos))); */
 
 document.addEventListener("DOMContentLoaded", () => {
   const gridProductos = document.getElementById("grid-productos");
