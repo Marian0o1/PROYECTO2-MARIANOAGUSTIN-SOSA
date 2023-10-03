@@ -151,6 +151,19 @@ footer {
   }
 }
 
+/* Responsive design - 420px */
+
+@media screen and (max-width: 420px) {
+  
+  #detalles-producto > div > div > .nombre-info > h2 {
+    font-size: 3rem;
+  }
+
+  body > footer > p {
+    text-align: center;
+  }
+}
+
 /* Responsive design - 320px */
 
 @media screen and (max-width: 320px) {

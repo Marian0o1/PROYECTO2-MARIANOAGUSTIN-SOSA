@@ -175,6 +175,14 @@ footer {
   }
 }
 
+/* Responsive design - 420px */
+
+@media screen and (max-width: 420px) {
+  body > footer > p {
+    text-align: center;
+  }
+}
+
 /* Responsive design - 320px */
 
 @media screen and (max-width: 320px) {
