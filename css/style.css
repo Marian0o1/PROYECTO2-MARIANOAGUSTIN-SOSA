@@ -4,6 +4,8 @@
   src: url("../fonts/Saiyan-Sans.ttf");
 }
 
+/* Responsive design - 1280px */
+
 * {
   margin: 0;
   padding: 0;
@@ -45,7 +47,7 @@ header {
 
 .contacto a {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-  1px 1px 0 #000;
+    1px 1px 0 #000;
   text-decoration: none; /* Quita el subrayado del enlace */
   color: #f0fff0; /* Color del texto */
   font-size: 2rem;
@@ -129,4 +131,70 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Responsive design - 1024px*/
+@media screen and (max-width: 1024px) {
+  header .titulo-header {
+    margin-left: 3.5rem;
+    text-align: center;
+  }
+}
+/* Responsive design - 768px*/
+@media screen and (max-width: 768px) {
+  header .titulo-header {
+    font-size: 1rem;
+  }
+}
+/* Responsive design - 480px*/
+@media screen and (max-width: 480px) {
+  body > header {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  body > header > .logo-header > img{
+    margin-top: 1rem;
+    margin-bottom: 0;
+    width: 22rem;
+  }
+
+  body > header > .titulo-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 4rem;
+    font-size: 1.6rem;
+  }
+
+  body > header > .titulo-header > h1 {
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-left: 1.5rem;
+  }
+}
+
+/* Responsive design - 320px */
+
+@media screen and (max-width: 320px) {
+
+  body {
+    width: 20rem;
+  }
+
+  body > header > .logo-header > img {
+    width: 19rem;
+  }
+
+  body > main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  body > footer {
+    text-align: center;
+  }
 }
