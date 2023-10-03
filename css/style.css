@@ -17,6 +17,8 @@ body {
   font-family: "Lato", sans-serif;
   color: #fff;
   font-size: 1rem;
+  overflow: hidden;
+  max-width: 100%;
 }
 
 header {
@@ -178,6 +180,19 @@ footer {
 /* Responsive design - 420px */
 
 @media screen and (max-width: 420px) {
+
+  body > header {
+    margin-left: 2rem;
+  }
+
+  body > main {
+    margin-left: 1rem;
+  }
+
+  body > footer {
+    width: 23.9rem;
+  }
+
   body > footer > p {
     text-align: center;
   }

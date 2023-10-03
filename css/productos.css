@@ -159,6 +159,10 @@ footer {
     font-size: 3rem;
   }
 
+  body > main {
+    height: 46rem;
+  }
+
   body > footer > p {
     text-align: center;
   }
