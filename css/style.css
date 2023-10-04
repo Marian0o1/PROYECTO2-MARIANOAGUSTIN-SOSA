@@ -17,8 +17,7 @@ body {
   font-family: "Lato", sans-serif;
   color: #fff;
   font-size: 1rem;
-  overflow: hidden;
-  max-width: 100%;
+  overflow: auto;
 }
 
 header {
@@ -67,14 +66,14 @@ h2 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   margin-top: 2rem;
-  gap: 20px;
-  padding: 10px;
+  gap: 1.25rem;
+  padding: 0.625rem;
   text-align: center;
 }
 
 .grid-item {
   background-color: #f0fff0;
-  padding: 50px;
+  padding: 3.125rem;
   gap: 2rem;
   border-radius: 5px;
   border: 2px solid #000;
@@ -98,29 +97,29 @@ h2 {
 
 .img-grid {
   max-width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .ver-mas {
   font-family: "Lato", sans-serif;
   font-weight: 100;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #fff;
   background-color: #141414;
-  padding: 10px 30px;
+  padding: 0.625rem 1.875rem;
   border: none;
   box-shadow: none;
-  border-radius: 50px;
+  border-radius: 3.125rem;
   transition: 1000ms;
   transform: translateY(0);
   display: flex;
   align-items: center;
   text-transform: uppercase;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 0.625rem;
   &:hover {
     transition: 1000ms;
-    padding: 10px 50px;
+    padding: 0.625rem 3.125rem;
     transform: translateY(-0px);
     background-color: #fff;
     color: #141414;
@@ -148,6 +147,18 @@ footer {
     font-size: 1rem;
   }
 }
+
+@media screen and (max-width: 620px) {
+  body > header {
+    flex-direction: column;
+  }
+
+  body > header > .contacto {
+    margin-top: 6rem;
+  }
+}
+
+
 /* Responsive design - 480px*/
 @media screen and (max-width: 480px) {
   body > header {
@@ -175,6 +186,10 @@ footer {
     margin-bottom: 5rem;
     margin-left: 1.5rem;
   }
+
+  body > footer > p {
+    text-align: center;
+  }
 }
 
 /* Responsive design - 420px */
@@ -182,15 +197,7 @@ footer {
 @media screen and (max-width: 420px) {
 
   body > header {
-    margin-left: 2rem;
-  }
-
-  body > main {
-    margin-left: 1rem;
-  }
-
-  body > footer {
-    width: 23.9rem;
+    margin-right: 2.1rem;
   }
 
   body > footer > p {
@@ -202,12 +209,12 @@ footer {
 
 @media screen and (max-width: 320px) {
 
-  body {
-    width: 20rem;
+  body > header > .logo-header > img {
+    width: 18rem;
   }
 
-  body > header > .logo-header > img {
-    width: 19rem;
+  body > header > .titulo-header {
+    padding: 0;
   }
 
   body > main {
